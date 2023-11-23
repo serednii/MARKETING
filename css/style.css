@@ -1,54 +1,3 @@
-/* @import 'css/jquery.fancybox.min.css';
-@import 'css/slick.css';
-@import '../css/reset.css'; */
-
-.hi {
-    display: none !important;
-}
-
-body {
-    min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
-    color: #373A39;
-}
-
-.visually-hiden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.container {
-    max-width: 1190px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
-
-
-.title {
-    font-size: 60px;
-    line-height: 75px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: -1.65px;
-    color: #242121;
-    align-self: flex-start;
-    padding-bottom: 18px;
-    position: relative;
-}
-
-
 .title::after {
     content: "";
     position: absolute;
@@ -96,12 +45,6 @@ body {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.6px;
-    /* transition: border-color .5s ease-in-out;
-    border-bottom: 1px solid transparent; */
-}
-
-.menu__list-link:hover {
-    /* border-color: #FCBB08; */
 }
 
 .header__content {

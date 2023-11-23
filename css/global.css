@@ -14,3 +14,49 @@
 .link-border-hover:hover {
     border-color: #FCBB08 !important;
 }
+
+.hi {
+    display: none !important;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A39;
+}
+
+.visually-hiden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+
+.title {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1.65px;
+    color: #242121;
+    align-self: flex-start;
+    padding-bottom: 18px;
+    position: relative;
+}
