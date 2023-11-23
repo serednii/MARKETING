@@ -1,0 +1,16 @@
+.link-border-hover {
+    padding: 0 9px 9px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #373A39;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.6px;
+    transition: border-color .5s ease-in-out !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.link-border-hover:hover {
+    border-color: #FCBB08 !important;
+}

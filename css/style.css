@@ -96,13 +96,12 @@ body {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.6px;
-    transition: border-color .5s ease-in-out;
-    border-bottom: 1px solid transparent;
+    /* transition: border-color .5s ease-in-out;
+    border-bottom: 1px solid transparent; */
 }
 
 .menu__list-link:hover {
-    border-color: #FCBB08;
-
+    /* border-color: #FCBB08; */
 }
 
 .header__content {
