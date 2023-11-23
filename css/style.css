@@ -3,7 +3,7 @@
     position: absolute;
     width: 60px;
     height: 4px;
-    background-color: #FCBB08;
+    background-color: var(--yellow);
     bottom: 0;
     left: 0;
 }
@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: var(--white);
     z-index: 999;
 }
 
@@ -69,7 +69,7 @@
     font-size: 72px;
     line-height: 88px;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: var(--white);
     margin-top: auto;
     margin-bottom: 19px;
     padding-top: 130px;
@@ -291,7 +291,7 @@
     line-height: 14px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white);
     background-color: #4c4a4a;
     border: 12px solid #666565;
     display: flex;
@@ -500,7 +500,7 @@
 }
 
 ul.pricing__item {
-    background-color: #fff;
+    background-color: var(--white);
     text-align: center;
     padding: 24px 25px 50px;
     width: 370px;
@@ -600,7 +600,7 @@ ul.pricing__item {
     font-weight: bold;
     font-size: 11px;
     line-height: 13px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     padding: 17px 70px 15px;
     border: none;
@@ -641,21 +641,21 @@ ul.footer__social {
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--white);
     letter-spacing: 4px;
 }
 
 .footer__contact {
     font-size: 14px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 60px;
 }
 
 .footer__contact a {
     display: block;
     margin: 10px 0;
-    color: #fff;
+    color: var(--white);
 }
 
 .go-top {
