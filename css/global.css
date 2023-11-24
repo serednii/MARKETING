@@ -15,9 +15,6 @@
     border-color: var(--yellow) !important;
 }
 
-.hi {
-    display: none !important;
-}
 
 body {
     min-height: 100vh;
