@@ -41,7 +41,7 @@
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
-    color: #373A39;
+    color: var(--gree);
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.6px;
@@ -160,7 +160,6 @@
 
 .expertise__text p {
     margin-bottom: 25px;
-
 }
 
 .expertise__items {
@@ -316,7 +315,7 @@
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1.2px;
-    color: #242121;
+    color: var(--textColor);
     text-align: center;
     text-transform: uppercase;
     padding: 42px 15px 41px;
@@ -333,7 +332,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 36px;
-    color: #242121;
+    color: var(--textColor);
 }
 
 .blockquote__author {
@@ -369,7 +368,7 @@
     font-weight: bold;
     font-size: 60px;
     line-height: 73px;
-    color: #242121;
+    color: var(--textColor);
 }
 
 .portfolio__numbers-item span {
@@ -395,7 +394,7 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 52px;
-    color: #242121;
+    color: var(--textColor);
     margin-bottom: 10px;
     max-width: 575px;
     display: inline-block;
@@ -414,7 +413,7 @@
 }
 
 .slick-dots button {
-    background-color: #242121;
+    background-color: var(--textColor);
     opacity: 0.4;
     width: 6px;
     height: 6px;
@@ -510,7 +509,7 @@ ul.pricing__item {
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    color: #242121;
+    color: var(--textColor);
     margin-bottom: 30px;
 }
 
@@ -535,7 +534,7 @@ ul.pricing__item {
     margin-top: 70px;
     display: block;
     font-weight: bold;
-    color: #242121;
+    color: var(--textColor);
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1.2px;
@@ -572,7 +571,7 @@ ul.pricing__item {
 .form textarea {
     border: none;
     display: block;
-    border-bottom: 2px solid #373A39;
+    border-bottom: 2px solid var(--gree);
     width: 100%;
     max-width: 100%;
     padding: 16px 10px;
@@ -604,7 +603,7 @@ ul.pricing__item {
     text-transform: uppercase;
     padding: 17px 70px 15px;
     border: none;
-    background: #242121;
+    background: var(--textColor);
     cursor: pointer;
     margin-top: 40px;
     letter-spacing: 2px;

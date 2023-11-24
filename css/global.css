@@ -25,7 +25,7 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
-    color: #373A39;
+    color: var(--gree);
 }
 
 .visually-hiden {
@@ -55,7 +55,7 @@ body {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -1.65px;
-    color: #242121;
+    color: var(--textColor);
     align-self: flex-start;
     padding-bottom: 18px;
     position: relative;
