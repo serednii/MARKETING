@@ -1,0 +1,15 @@
+{
+  "name": "MARKETING",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/eliofery/MARKETING",
+  "main": "gulpfile.js",
+  "scripts": {
+    "deploy": "gh-pages -d "
+  },
+  "author": "serednia anastasia",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
