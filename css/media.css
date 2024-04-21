@@ -1,8 +1,8 @@
 /* MEDIA */
 
 @media (max-width: 1440px) {
-    .magic__inner {
-        padding: 50px 0;
+    .magic__content {
+        padding-top: 5vw;
     }
 
     .slick-prev {
@@ -25,6 +25,8 @@
 
 @media (max-width: 1200px) {
 
+
+
     .about,
     .expertise,
     .portfolio,
@@ -43,7 +45,7 @@
     .team__title,
     .pricing__title,
     .connection__title {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .header__top-inner {
@@ -67,16 +69,25 @@
         margin-right: 0;
     }
 
+    .connection__inner {
+        gap: 20px;
+    }
+    .connection__content {
+        padding: 45px 0 60px;
+    }
+
     .team__items,
     .pricing__items,
     .clienst__list {
         column-gap: 20px;
     }
+}
 
     @media (max-width: 992px) {
         .expertise__inner {
             display: block;
-            margin-bottom: 75px;
+            max-width: 700px;
+            margin: 0 auto 75px auto;
         }
 
         .expertise__info {
@@ -85,8 +96,8 @@
         }
 
         .expertise__items {
-            display: block;
-            flex-wrap: wrap;
+           flex-wrap: wrap;
+           justify-content: center;
         }
 
         .expertise__item {
@@ -99,12 +110,28 @@
         }
 
         .magic__inner {
-            max-width: 100%;
-            margin-left: 0;
+           flex-direction: column;
+           align-items: center;
+
+
+        }
+        .magic__images {
+            max-width: 470px;
+            width: 100%;
         }
 
         .magic__title {
-            margin-bottom: 50px;
+            margin-bottom: 25px;
+        }
+
+        .magic__content {
+            padding-top: 30px;
+            width: initial;
+        }
+
+        .magic__img {
+            max-width: 470px;
+            margin: 0 auto;
         }
 
         .portfolio__content {
@@ -121,7 +148,19 @@
         }
 
         .portfolio__top {
-            margin-bottom: 50px;
+            margin-bottom: 25px;
+        }
+        .connection__inner {
+            flex-direction: column;
+        }
+
+        .connection__content {
+            padding: 20px 0;
+        }
+
+        .map {
+            width: 100%;
+            aspect-ratio: 1/0.7;
         }
 
         .connection {
@@ -133,7 +172,7 @@
         }
 
         .footer__top {
-            padding-top: 75px;
+            padding-top: 50px;
         }
 
         .footer__logo {
@@ -141,27 +180,42 @@
         }
 
         ul.footer__social {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             flex-wrap: wrap;
         }
 
         .footer__social-list {
             width: 33.333%;
-            margin-bottom: 25px;
+            margin-bottom: 18px;
         }
     }
 
     @media (max-width: 768px) {
+
+        .about,
+        .expertise,
+        .portfolio,
+        .slider-blog,
+        .team,
+        .pricing,
+        .connection {
+            padding: 40px 0;
+        }
+
         .menu__list {
             position: absolute;
             left: 0;
             right: 0;
             top: 0;
-            background-color: #000;
+            background-color: #F6F8FA;;
             display: block;
             text-align: center;
             transform: translateY(-200%);
             transition: all .5s;
+        }
+
+        .menu__list.menu--active {
+            transform: translateY(0%);
         }
 
         ul.menu__list {
@@ -175,7 +229,7 @@
         .menu__list-link {
             display: block;
             padding: 15px 0;
-            color: #fff;
+            color: #000;
         }
 
         .logo {
@@ -183,7 +237,7 @@
             z-index: 2;
         }
 
-        .menu__btn {
+        .burger {
             display: block;
             background-color: transparent;
             border: none;
@@ -198,7 +252,7 @@
             transition: all .5s;
         }
 
-        .header__top-inner.header__top-inner--active .menu__list {
+        /* .header__top-inner.header__top-inner--active .menu__list {
             transform: translateY(0%);
         }
 
@@ -208,7 +262,7 @@
 
         .header__top-inner.header__top-inner--active .menu__btn rect {
             fill: white;
-        }
+        } */
 
         .header__top-inner {
             align-items: center;
@@ -253,7 +307,7 @@
         }
 
         .portfolio__video {
-            margin-bottom: 75px;
+            margin-bottom: 40px;
         }
 
         .portfolio__numbers {
@@ -286,6 +340,11 @@
             margin: 0 auto 25px;
             max-width: 500px;
             width: 100%;
+        }
+
+        .pricing__item .pricing__item-num {
+            font-size: 65px;
+            margin-bottom: 30px;
         }
 
         .clienst__list {
@@ -353,4 +412,3 @@
             margin-bottom: 6px;
         }
     }
-}

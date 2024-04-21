@@ -1,3 +1,5 @@
+
+
 .title::after {
     content: "";
     position: absolute;
@@ -24,7 +26,7 @@
     align-items: flex-end;
 }
 
-.menu__btn {
+.burger {
     display: none;
 }
 
@@ -208,17 +210,28 @@
     color: #777;
 }
 
-.magic {
-    background-color: #F6F8FA;
-    background-image: url('../images/magic.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .magic__inner {
+    display: flex;
+    background-color: #F6F8FA;
+}
+
+.magic__images {
+    width: 50%;
+}
+
+.magic__img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.magic__content {
+    padding: 100px 7% 0 7%;
+    width: 50%;
+}
+
+.magic__content > * {
     max-width: 470px;
-    margin-left: auto;
-    padding: 100px 0 190px;
 }
 
 .magic__text p {
@@ -242,6 +255,7 @@
 
 .portfolio__filter-btn {
     margin-right: 65px;
+    display: flex;
 }
 
 .portfolio__btn {
@@ -553,12 +567,34 @@ ul.pricing__item {
 }
 
 .connection {
-    padding: 145px 0 160px;
-    background-image: url(../images/map.jpg);
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: right 65%;
+  
+  
 }
+
+.connection__inner{
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+}
+
+.connection__content{
+    padding: 145px 0 160px;
+    max-width: 570px;
+    width: 100%;
+
+}
+
+.map {
+    width: 100%;
+    max-width: 675px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .connection__title {
     margin-bottom: 80px;
@@ -612,7 +648,7 @@ ul.pricing__item {
 
 
 .footer__top {
-    padding: 11px 10px 60px;
+    padding: 11px 10px 0;
     background-color: #333;
     text-align: center;
 }
@@ -627,7 +663,7 @@ ul.pricing__item {
 ul.footer__social {
     display: flex;
     justify-content: center;
-    margin-bottom: 65px;
+    margin-bottom: 75px;
 }
 
 .footer__social-list {
@@ -654,12 +690,13 @@ ul.footer__social {
 
 .footer__contact a {
     display: block;
-    margin: 10px 0;
+    margin-bottom: 20px;
     color: var(--white);
 }
 
 .go-top {
     display: inline-block;
+    margin-bottom: 60px;
 }
 
 .footer__copy {

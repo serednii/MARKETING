@@ -2,10 +2,10 @@
   "name": "MARKETING",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/eliofery/MARKETING",
+  "homepage": "https://github.com/SeredniaAnastasia/marketing",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gh-pages -d "
+    "deploy": "gh-pages -d ./"
   },
   "author": "serednia anastasia",
   "license": "ISC",
