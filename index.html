@@ -7,19 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>MARKETING</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#eac511">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&family=Raleway:wght@700&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/var.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/burger.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="./css/var.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css?v=1.1">
+    <link rel="stylesheet" href="./css/media.css">
 
 </head>
 
@@ -27,9 +34,9 @@
 
     <header class="header" id="header">
         <div class="header__top">
-        <div class="container">
+            <div class="container">
                 <div class="header__top-inner">
-                    <a class="logo" href="#" >
+                    <a class="logo" href="#">
                         <svg width="80" height="64" viewBox="0 0 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15.3474 55.2856C12.8034 55.2856 10.5114 54.7336 8.47141 53.6296C6.43141 52.5016 4.82341 50.9536 3.64741 48.9856C2.49541 47.0176 1.91941 44.8216 1.91941 42.3976C1.91941 39.9736 2.49541 37.7776 3.64741 35.8096C4.82341 33.8416 6.43141 32.3056 8.47141 31.2016C10.5114 30.0736 12.8034 29.5096 15.3474 29.5096C17.8674 29.5096 20.1474 30.0736 22.1874 31.2016C24.2274 32.3056 25.8234 33.8416 26.9754 35.8096C28.1274 37.7536 28.7034 39.9496 28.7034 42.3976C28.7034 44.8456 28.1274 47.0536 26.9754 49.0216C25.8234 50.9656 24.2274 52.5016 22.1874 53.6296C20.1474 54.7336 17.8674 55.2856 15.3474 55.2856ZM15.3474 52.0816C17.1954 52.0816 18.8514 51.6616 20.3154 50.8216C21.8034 49.9816 22.9674 48.8296 23.8074 47.3656C24.6714 45.8776 25.1034 44.2216 25.1034 42.3976C25.1034 40.5736 24.6714 38.9296 23.8074 37.4656C22.9674 35.9776 21.8034 34.8136 20.3154 33.9736C18.8514 33.1336 17.1954 32.7136 15.3474 32.7136C13.4994 32.7136 11.8194 33.1336 10.3074 33.9736C8.81941 34.8136 7.64341 35.9776 6.77941 37.4656C5.93941 38.9296 5.51941 40.5736 5.51941 42.3976C5.51941 44.2216 5.93941 45.8776 6.77941 47.3656C7.64341 48.8296 8.81941 49.9816 10.3074 50.8216C11.8194 51.6616 13.4994 52.0816 15.3474 52.0816ZM57.5698 54.9976L57.5338 36.6376L48.4258 51.9376H46.7698L37.6618 36.7456V54.9976H34.2058V29.7976H37.1578L47.6698 47.5096L58.0378 29.7976H60.9898L61.0258 54.9976H57.5698Z"
@@ -81,7 +88,8 @@
                 </div>
             </div>
         </div>
-        <div class="header__content" style="background-image: url(./images/Header-bg@3x.webp);">
+        <div class="header__content">
+
             <div class="container">
                 <div class="header__content-inner">
                     <h1 class="header__title">
@@ -91,7 +99,7 @@
                         DIGITAL MARKETING AGENCY
                     </p>
                     <a href="#about" class="header__icon" aria-label="link to go down">
-                        <img src="images/mouse.svg" alt="mouse icon">
+                        <img src="./images/mouse.svg" alt="mouse icon">
                     </a>
                 </div>
             </div>
@@ -190,19 +198,22 @@
                     <picture>
                         <source srcset="./images/magic.webp" type="image/webp">
                         <source srcset="./images/magic.avif" type="image/avif">
-                        <img  src="./images/magic.jpg" class="magic__img" alt="magic dog">
+                        <img src="./images/magic.jpg" class="magic__img" alt="magic dog">
                     </picture>
                 </div>
                 <div class="magic__content">
                     <h2 class="title magic__title">Let’s make magic.</h2>
                     <div class="magic__text">
                         <p>Маркетингова агенція MGN: повний комплекс маркетингових, рекламних та дизайнерських послуг
-                            у Харкові та Україні: маркетингові дослідження ринків, товарів, споживачів, планування комплексу
+                            у Харкові та Україні: маркетингові дослідження ринків, товарів, споживачів, планування
+                            комплексу
                             маркетингу,
                             реклама, проведення рекламних кампаній, брендинг, рекламний дизайн, pr.</p>
-                        <p>Нами накопичений чималий досвід роботи в реальному бізнесі, в різних галузях – від нерухомості до
+                        <p>Нами накопичений чималий досвід роботи в реальному бізнесі, в різних галузях – від
+                            нерухомості до
                             аптечного та медичного бізнесу.
-                            Ми не просто беремося вирішувати завдання наших клієнтів, ми самі вийшли з бізнес-середовища та
+                            Ми не просто беремося вирішувати завдання наших клієнтів, ми самі вийшли з бізнес-середовища
+                            та
                             розуміємо суть бізнес-процесів.</p>
                         <p>Ми говоримо з бізнесом однією мовою!</p>
                     </div>
@@ -226,10 +237,10 @@
                         <button class="portfolio__btn" data-filter=".category-b">DESIGN</button>
                     </li>
                     <li>
-                    <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
+                        <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
                     </li>
                     <li>
-                    <button class="portfolio__btn" data-filter=".category-d">ILLUSTRATION</button>
+                        <button class="portfolio__btn" data-filter=".category-d">ILLUSTRATION</button>
                     </li>
                 </ul>
             </div>
@@ -237,90 +248,90 @@
             <div class="portfolio__content">
                 <div class="portfolio__item mix category-a">
                     <picture>
-                        <source srcset="images/portfolio/1.webp" type="image/webp">
-                        <source srcset="images/portfolio/1.avif" type="image/avif">
-                        <img  src="images/portfolio/1.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/1.webp" type="image/webp">
+                        <source srcset="./images/portfolio/1.avif" type="image/avif">
+                        <img src="./images/portfolio/1.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-a">
                     <picture>
-                        <source srcset="images/portfolio/2.webp" type="image/webp">
-                        <source srcset="images/portfolio/2.avif" type="image/avif">
-                        <img  src="images/portfolio/2.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/2.webp" type="image/webp">
+                        <source srcset="./images/portfolio/2.avif" type="image/avif">
+                        <img src="./images/portfolio/2.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-b">
                     <picture>
-                        <source srcset="images/portfolio/3.webp" type="image/webp">
-                        <source srcset="images/portfolio/3.avif" type="image/avif">
-                        <img  src="images/portfolio/3.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/3.webp" type="image/webp">
+                        <source srcset="./images/portfolio/3.avif" type="image/avif">
+                        <img src="./images/portfolio/3.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-b">
                     <picture>
-                        <source srcset="images/portfolio/4.webp" type="image/webp">
-                        <source srcset="images/portfolio/4.avif" type="image/avif">
-                        <img  src="images/portfolio/4.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/4.webp" type="image/webp">
+                        <source srcset="./images/portfolio/4.avif" type="image/avif">
+                        <img src="./images/portfolio/4.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-b">
                     <picture>
-                        <source srcset="images/portfolio/5.webp" type="image/webp">
-                        <source srcset="images/portfolio/5.avif" type="image/avif">
-                        <img  src="images/portfolio/5.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/5.webp" type="image/webp">
+                        <source srcset="./images/portfolio/5.avif" type="image/avif">
+                        <img src="./images/portfolio/5.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-c">
                     <picture>
-                        <source srcset="images/portfolio/6.webp" type="image/webp">
-                        <source srcset="images/portfolio/6.avif" type="image/avif">
-                        <img  src="images/portfolio/6.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/6.webp" type="image/webp">
+                        <source srcset="./images/portfolio/6.avif" type="image/avif">
+                        <img src="./images/portfolio/6.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-c">
                     <picture>
-                        <source srcset="images/portfolio/7.webp" type="image/webp">
-                        <source srcset="images/portfolio/7.avif" type="image/avif">
-                        <img  src="images/portfolio/7.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/7.webp" type="image/webp">
+                        <source srcset="./images/portfolio/7.avif" type="image/avif">
+                        <img src="./images/portfolio/7.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-c">
                     <picture>
-                        <source srcset="images/portfolio/8.webp" type="image/webp">
-                        <source srcset="images/portfolio/8.avif" type="image/avif">
-                        <img  src="images/portfolio/8.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/8.webp" type="image/webp">
+                        <source srcset="./images/portfolio/8.avif" type="image/avif">
+                        <img src="./images/portfolio/8.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
                 </div>
                 <div class="portfolio__item mix category-d">
                     <picture>
-                        <source srcset="images/portfolio/9.webp" type="image/webp">
-                        <source srcset="images/portfolio/9.avif" type="image/avif">
-                        <img  src="images/portfolio/9.jpg"  alt="portfolio images">
-                      </picture>
+                        <source srcset="./images/portfolio/9.webp" type="image/webp">
+                        <source srcset="./images/portfolio/9.avif" type="image/avif">
+                        <img src="./images/portfolio/9.jpg" alt="portfolio images">
+                    </picture>
                     <a class="portfolio__item-link" href="#">
                         SHOW PROJECT
                     </a>
@@ -335,7 +346,7 @@
             </blockquote>
             <div class="portfolio__video">
                 <a data-fancybox class="portfolio__video-link" href="https://www.youtube.com/watch?v=k2uIpRp7fTk">
-                    <img src="images/play.svg" alt="play icon">
+                    <img src="./images/play.svg" alt="play icon">
                     <span class="visually-hiden">Воспроизвести видео</span>
                 </a>
             </div>
@@ -449,28 +460,28 @@
             <div class="team__items">
                 <div class="team__item">
                     <picture>
-                        <source srcset="images/team-1.webp" type="image/webp">
-                        <source srcset="images/team-1.avif" type="image/avif">
-                        <img  src="images/team-1.jpg"  alt="team images">
-                      </picture>
+                        <source srcset="./images/team-1.webp" type="image/webp">
+                        <source srcset="./images/team-1.avif" type="image/avif">
+                        <img src="./images/team-1.jpg" alt="team images">
+                    </picture>
                     <h3 class="team__name">МАКС</h3>
                     <p class="team__position">CEO</p>
                 </div>
                 <div class="team__item">
-                 <picture>
-                    <source srcset="images/team-2.webp" type="image/webp">
-                    <source srcset="images/team-2.avif" type="image/avif">
-                    <img  src="images/team-2.jpg"  alt="team images">
-                  </picture>
+                    <picture>
+                        <source srcset="./images/team-2.webp" type="image/webp">
+                        <source srcset="./images/team-2.avif" type="image/avif">
+                        <img src="./images/team-2.jpg" alt="team images">
+                    </picture>
                     <h3 class="team__name">АНЯ</h3>
                     <p class="team__position">Co-Founder</p>
                 </div>
                 <div class="team__item">
                     <picture>
-                        <source srcset="images/team-3.webp" type="image/webp">
-                        <source srcset="images/team-3.avif" type="image/avif">
-                        <img  src="images/team-3.jpg"  alt="team images">
-                      </picture>
+                        <source srcset="./images/team-3.webp" type="image/webp">
+                        <source srcset="./images/team-3.avif" type="image/avif">
+                        <img src="./images/team-3.jpg" alt="team images">
+                    </picture>
                     <h3 class="team__name">МИЛА</h3>
                     <p class="team__position">Designer</p>
                 </div>
@@ -529,42 +540,42 @@
     </section>
     <section class="clienst">
         <div class="container">
-            <h2 hidden >clienst</h2>
+            <h2 hidden>clienst</h2>
             <ul class="clienst__list">
                 <li>
                     <picture>
-                        <source srcset="images/clienst/1.webp" type="image/webp">
-                        <source srcset="images/clienst/1.avif" type="image/avif">
-                        <img  src="images/clienst/1.png"  alt="clienst-1 images">
-                      </picture>
+                        <source srcset="./images/clienst/1.webp" type="image/webp">
+                        <source srcset="./images/clienst/1.avif" type="image/avif">
+                        <img src="./images/clienst/1.png" alt="clienst-1 images">
+                    </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="images/clienst/2.webp" type="image/webp">
-                        <source srcset="images/clienst/2.avif" type="image/avif">
-                        <img  src="images/clienst/2.png"  alt="clienst-2 images">
-                      </picture>
+                        <source srcset="./images/clienst/2.webp" type="image/webp">
+                        <source srcset="./images/clienst/2.avif" type="image/avif">
+                        <img src="./images/clienst/2.png" alt="clienst-2 images">
+                    </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="images/clienst/3.webp" type="image/webp">
-                        <source srcset="images/clienst/3.avif" type="image/avif">
-                        <img  src="images/clienst/3.png"  alt="clienst-3 images">
-                      </picture>
+                        <source srcset="./images/clienst/3.webp" type="image/webp">
+                        <source srcset="./images/clienst/3.avif" type="image/avif">
+                        <img src="./images/clienst/3.png" alt="clienst-3 images">
+                    </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="images/clienst/4.webp" type="image/webp">
-                        <source srcset="images/clienst/4.avif" type="image/avif">
-                        <img  src="images/clienst/4.png"  alt="clienst-4 images">
-                      </picture>
+                        <source srcset="./images/clienst/4.webp" type="image/webp">
+                        <source srcset="./images/clienst/4.avif" type="image/avif">
+                        <img src="./images/clienst/4.png" alt="clienst-4 images">
+                    </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="images/clienst/5.webp" type="image/webp">
-                        <source srcset="images/clienst/5.avif" type="image/avif">
-                        <img  src="images/clienst/5.png"  alt="clienst-5 images">
-                      </picture>
+                        <source srcset="./images/clienst/5.webp" type="image/webp">
+                        <source srcset="./images/clienst/5.avif" type="image/avif">
+                        <img src="./images/clienst/5.png" alt="clienst-5 images">
+                    </picture>
                 </li>
             </ul>
         </div>
@@ -594,9 +605,10 @@
                     </form>
                 </div>
                 <div id="map" class="map">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A64bd618d2990a028513dfe6266d2bbd05d120997e7ed03996709aea1739c1922&amp;width=480&amp;height=335&amp;lang=ru_RU&amp;scroll=true"></script>
-                    <script src="./js/_map.js"></script>
-                  </div>
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A64bd618d2990a028513dfe6266d2bbd05d120997e7ed03996709aea1739c1922&amp;width=480&amp;height=335&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <script src="./js/map.js"></script>
+                </div>
 
             </div>
         </div>
@@ -604,7 +616,7 @@
     <footer id="footer" class="footer">
         <div class="footer__top">
             <a class="footer__logo" href="#">
-                <img src="images/logo-white.svg" alt="логотип">
+                <img src="./images/logo-white.svg" alt="логотип">
             </a>
             <ul class="footer__social">
                 <li class="footer__social-list">
@@ -631,8 +643,8 @@
                 <a class="phone" href="tel:+3806765252222">(38067) 65 252 222</a>
                 <a class="email" href="mailto:info@mail.com">info@mail.com</a>
             </div>
-            <a href="#header" class="go-top"  aria-label="link to go top">
-                <img src="images/angle-up.svg" alt="arrow top">
+            <a href="#header" class="go-top" aria-label="link to go top">
+                <img src="./images/angle-up.svg" alt="arrow top">
             </a>
         </div>
         <div class="footer__copy">
@@ -641,12 +653,12 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/burger.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/send_mail.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/send_mail.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
