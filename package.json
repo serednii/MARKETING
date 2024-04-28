@@ -2,12 +2,13 @@
   "name": "MARKETING",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/serednii/Marketing",
+  "homepage1": "https://github.com/serednii/marketing",
+  "homepage": "./",
   "main": "gulpfile.js",
   "scripts": {
     "deploy": "gh-pages -d ./"
   },
-  "author": "serednii mykola",
+  "author": "serednia anastasia",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.1.1"

@@ -49,7 +49,8 @@
 
 .header__content {
     padding-top: 100px;
-    background-image: url('../images/header-bg.jpg');
+    /* background-image: url('../images/header.jpg'); */
+    background-image: url('../images/header.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -254,7 +255,6 @@
 .portfolio__filter-btn {
     margin-right: 65px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .portfolio__btn {
